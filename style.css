@@ -342,19 +342,19 @@ nav a:hover {
 }
 
 /* FOTOS ESPECÍFICAS DE CADA CLUBE */
-.botafogo .foto-clube { background-image: url("./imagens/botafogo.jpg"); }
+.botafogo .foto-clube { background-image: url("./botafogo.jpg"); }
 .flamengo .foto-clube { background-image: url("./flamengo.jpg"); }
-.fluminense .foto-clube { background-image: url("./fluminense.jpg.jpg"); }
-.vasco .foto-clube { background-image: url("./imagens/vasco.jpg"); }
+.fluminense .foto-clube { background-image: url("./fluminense.jpg"); }
+.vasco .foto-clube { background-image: url("./vasco.jpg"); }
 .olaria .foto-clube { background-image: url("./olaria.jpg"); }
 .madureira .foto-clube { background-image: url("./imagens/madureira.jpg"); }
-.bangu .foto-clube { background-image: url("./bangu.jpg.jpeg"); }
+.bangu .foto-clube { background-image: url("./bangu.jpg"); }
 .américa .foto-clube { background-image: url("./america.jpg"); }
 .portuguesa .foto-clube { background-image: url("./portuguesa.jpg"); }
 .saocristovao .foto-clube { background-image: url("./imagens/saocristovao.jpg"); }
 .bonsucesso .foto-clube { background-image: url("./bonsucesso.jpg"); }
 .campogrande .foto-clube { background-image: url("./campo grande.png"); }
-.voltaredonda .foto-clube { background-image: url("./imagens/voltaredonda.jpg"); }
+.voltaredonda .foto-clube { background-image: url("./volta redonda.jpg"); }
 .boavista .foto-clube { background-image: url("./imagens/boavista.jpg"); }
 
 /* =====================================================
