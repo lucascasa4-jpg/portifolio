@@ -1,1076 +1,577 @@
 /* =====================================================
-FUTEBOL CARIOCA
-===================================================== */
+   FUTEBOL CARIOCA - ESTILOS
+   ===================================================== */
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  }
+}
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-
-
-font-family:
-    Arial,
-    Helvetica,
-    sans-serif;
-
-background: #0b1120;
-
-color: #f8fafc;
-
-line-height: 1.6;
-
-
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b1120;
+  color: #f8fafc;
+  line-height: 1.6;
 }
 
 /* =====================================================
-TOPO
-===================================================== */
+   TOPO & NAVEGAÇÃO
+   ===================================================== */
 
 .topo {
-
-
-position: sticky;
-
-top: 0;
-
-z-index: 1000;
-
-min-height: 74px;
-
-display: flex;
-
-align-items: center;
-
-justify-content: space-between;
-
-padding: 0 6%;
-
-background: rgba(15,23,42,0.95);
-
-border-bottom: 1px solid #263449;
-
-backdrop-filter: blur(12px);
-
-
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  min-height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6%;
+  background: rgba(15, 23, 42, 0.95);
+  border-bottom: 1px solid #263449;
+  backdrop-filter: blur(12px);
 }
 
 .logo {
-
-
-display: flex;
-
-align-items: center;
-
-gap: 12px;
-
-
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .logo-icone {
-
-
-width: 45px;
-
-height: 45px;
-
-display: grid;
-
-place-items: center;
-
-border-radius: 12px;
-
-background: #16a34a;
-
-font-size: 23px;
-
-
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: #16a34a;
+  font-size: 23px;
 }
 
 .logo strong {
-
-
-display: block;
-
-font-size: 18px;
-
-
+  display: block;
+  font-size: 18px;
 }
 
 .logo span {
-
-
-display: block;
-
-color: #94a3b8;
-
-font-size: 11px;
-
-
+  display: block;
+  color: #94a3b8;
+  font-size: 11px;
 }
 
 nav {
-
-
-display: flex;
-
-gap: 28px;
-
-
+  display: flex;
+  gap: 28px;
 }
 
 nav a {
-
-
-color: #cbd5e1;
-
-text-decoration: none;
-
-font-weight: 600;
-
-font-size: 14px;
-
-transition: 0.2s;
-
-
+  color: #cbd5e1;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.2s ease;
 }
 
 nav a:hover {
-
-
-color: #4ade80;
-
-
+  color: #4ade80;
 }
 
 .menu-mobile {
+  display: none;
+  border: 0;
+  background: #1e293b;
+  color: white;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
 
-display: none;
-
-border: 0;
-
-background: #1e293b;
-
-color: white;
-
-width: 42px;
-
-height: 42px;
-
-border-radius: 10px;
-
-font-size: 20px;
-
-
+.menu-mobile:hover {
+  background: #334155;
 }
 
 /* =====================================================
-HERO
-===================================================== */
+   HERO
+   ===================================================== */
 
 .hero {
-
-
-min-height: 620px;
-
-position: relative;
-
-display: flex;
-
-align-items: center;
-
-overflow: hidden;
-
-padding: 90px 8%;
-
-background:
-
+  min-height: 620px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 90px 8%;
+  background: 
     linear-gradient(
-        90deg,
-        rgba(2,6,23,0.94),
-        rgba(2,6,23,0.68),
-        rgba(2,6,23,0.25)
+      90deg,
+      rgba(2, 6, 23, 0.94),
+      rgba(2, 6, 23, 0.68),
+      rgba(2, 6, 23, 0.25)
     ),
-
-    url("./imagens/futebol.jpg")
-    center / cover no-repeat;
-
-
+    url("./imagens/futebol.jpg") center / cover no-repeat;
 }
 
 .hero-conteudo {
-
-
-max-width: 720px;
-
-position: relative;
-
-z-index: 2;
-
-
+  max-width: 720px;
+  position: relative;
+  z-index: 2;
 }
 
 .etiqueta {
-
-
-display: inline-block;
-
-color: #86efac;
-
-background: rgba(34,197,94,0.12);
-
-border: 1px solid rgba(74,222,128,0.25);
-
-padding: 8px 14px;
-
-border-radius: 30px;
-
-font-size: 11px;
-
-font-weight: bold;
-
-letter-spacing: 1.5px;
-
-
+  display: inline-block;
+  color: #86efac;
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(74, 222, 128, 0.25);
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 .hero h1 {
-
-
-font-size: clamp(45px, 7vw, 78px);
-
-line-height: 1.03;
-
-margin: 25px 0;
-
-letter-spacing: -3px;
-
-
+  font-size: clamp(45px, 7vw, 78px);
+  line-height: 1.03;
+  margin: 25px 0;
+  letter-spacing: -3px;
 }
 
 .hero h1 span {
-
-
-color: #4ade80;
-
-
+  color: #4ade80;
 }
 
 .hero p {
-
-
-max-width: 620px;
-
-color: #cbd5e1;
-
-font-size: 19px;
-
-
+  max-width: 620px;
+  color: #cbd5e1;
+  font-size: 19px;
 }
 
 .hero-botoes {
-
-
-display: flex;
-
-gap: 12px;
-
-flex-wrap: wrap;
-
-margin-top: 32px;
-
-
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 32px;
 }
 
 .hero-botoes a {
-
-
-padding: 14px 22px;
-
-border-radius: 10px;
-
-text-decoration: none;
-
-font-weight: bold;
-
-transition: 0.25s;
-
-
+  padding: 14px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.25s ease, background 0.25s ease;
 }
 
 .botao-principal {
-
-
-background: #16a34a;
-
-color: white;
-
-
+  background: #16a34a;
+  color: white;
 }
 
 .botao-principal:hover {
-
-
-background: #22c55e;
-
-transform: translateY(-2px);
-
-
+  background: #22c55e;
+  transform: translateY(-2px);
 }
 
 .botao-secundario {
-
-
-color: white;
-
-background: rgba(255,255,255,0.08);
-
-border: 1px solid #475569;
-
-
+  color: white;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #475569;
 }
 
 .botao-secundario:hover {
-
-
-background: rgba(255,255,255,0.15);
-
-
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .bola-decoracao {
-
-
-position: absolute;
-
-right: 7%;
-
-font-size: 300px;
-
-opacity: 0.08;
-
-transform: rotate(-15deg);
-
-
+  position: absolute;
+  right: 7%;
+  font-size: 300px;
+  opacity: 0.08;
+  transform: rotate(-15deg);
+  pointer-events: none;
 }
 
 /* =====================================================
-INTRODUÇÃO
-===================================================== */
+   INTRODUÇÃO
+   ===================================================== */
 
 .introducao {
-
-
-padding: 100px 20px;
-
-background: #111827;
-
-
+  padding: 100px 20px;
+  background: #111827;
 }
 
 .introducao-conteudo {
-
-
-max-width: 850px;
-
-margin: auto;
-
-
+  max-width: 850px;
+  margin: auto;
 }
 
 .introducao h2 {
-
-
-font-size: clamp(36px, 5vw, 55px);
-
-line-height: 1.1;
-
-margin: 20px 0;
-
-
+  font-size: clamp(36px, 5vw, 55px);
+  line-height: 1.1;
+  margin: 20px 0;
 }
 
 .introducao p {
-
-
-max-width: 750px;
-
-color: #94a3b8;
-
-font-size: 18px;
-
-margin-bottom: 18px;
-
-
+  max-width: 750px;
+  color: #94a3b8;
+  font-size: 18px;
+  margin-bottom: 18px;
 }
 
 /* =====================================================
-CLUBES
-===================================================== */
+   SEÇÕES & TITULOS
+   ===================================================== */
 
 .clubes-secao,
 .pesquisa-secao {
-
-
-max-width: 1250px;
-
-margin: auto;
-
-padding: 100px 20px;
-
-
+  max-width: 1250px;
+  margin: auto;
+  padding: 100px 20px;
 }
 
 .titulo-secao {
-
-
-display: flex;
-
-gap: 15px;
-
-align-items: center;
-
-margin-bottom: 35px;
-
-
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 35px;
 }
 
 .titulo-secao > span {
-
-
-font-size: 38px;
-
-
+  font-size: 38px;
 }
 
 .titulo-secao small {
-
-
-color: #4ade80;
-
-font-size: 11px;
-
-letter-spacing: 2px;
-
-font-weight: bold;
-
-
+  color: #4ade80;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .titulo-secao h2 {
-
-
-font-size: 34px;
-
-margin-top: 4px;
-
-
+  font-size: 34px;
+  margin-top: 4px;
 }
 
 /* =====================================================
-FILTROS
-===================================================== */
+   FILTROS
+   ===================================================== */
 
 .filtros {
-
-
-display: flex;
-
-gap: 10px;
-
-flex-wrap: wrap;
-
-margin-bottom: 30px;
-
-
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .filtro {
-
-
-border: 1px solid #334155;
-
-background: #111827;
-
-color: #cbd5e1;
-
-padding: 10px 18px;
-
-border-radius: 30px;
-
-cursor: pointer;
-
-transition: 0.2s;
-
+  border: 1px solid #334155;
+  background: #111827;
+  color: #cbd5e1;
+  padding: 10px 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .filtro:hover,
 .filtro.ativo {
-
-
-background: #16a34a;
-
-color: white;
-
-border-color: #16a34a;
-
-
+  background: #16a34a;
+  color: white;
+  border-color: #16a34a;
 }
 
 /* =====================================================
-GRADE
-===================================================== */
+   GRADE DE CLUBES
+   ===================================================== */
 
 .grade-clubes {
-
-
-display: grid;
-
-grid-template-columns:
-    repeat(3, 1fr);
-
-gap: 22px;
-
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
 }
 
 .card-clube {
-
-overflow: hidden;
-
-background: #172033;
-
-border: 1px solid #263449;
-
-border-radius: 18px;
-
-transition: 0.3s;
-
-box-shadow:
-    0 12px 30px rgba(0,0,0,0.18);
-
-
+  overflow: hidden;
+  background: #172033;
+  border: 1px solid #263449;
+  border-radius: 18px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
 .card-clube:hover {
-
-
-transform: translateY(-7px);
-
-border-color: #475569;
-
-box-shadow:
-    0 20px 45px rgba(0,0,0,0.3);
-
-
+  transform: translateY(-7px);
+  border-color: #475569;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
 }
 
 /* =====================================================
-FOTOS
-===================================================== */
+   FOTOS DOS CARDS
+   ===================================================== */
 
 .foto-clube {
-
-
-height: 190px;
-
-position: relative;
-
-display: flex;
-
-align-items: center;
-
-justify-content: center;
-
-background-position: center;
-
-background-size: cover;
-
-
+  height: 190px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
 .foto-clube::after {
-
-
-content: "";
-
-position: absolute;
-
-inset: 0;
-
-background:
-    linear-gradient(
-        to top,
-        rgba(2,6,23,0.75),
-        transparent
-    );
-
-
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(2, 6, 23, 0.75), transparent);
 }
 
 .foto-clube span {
-
-
-position: relative;
-
-z-index: 2;
-
-font-size: 42px;
-
-filter:
-    drop-shadow(0 4px 10px rgba(0,0,0,0.5));
-
-
+  position: relative;
+  z-index: 2;
+  font-size: 42px;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.5));
 }
+
+/* FOTOS ESPECÍFICAS DE CADA CLUBE */
+.botafogo .foto-clube { background-image: url("./imagens/botafogo.jpg"); }
+.flamengo .foto-clube { background-image: url("./imagens/flamengo.jpg"); }
+.fluminense .foto-clube { background-image: url("./imagens/fluminense.jpg"); }
+.vasco .foto-clube { background-image: url("./imagens/vasco.jpg"); }
+.olaria .foto-clube { background-image: url("./imagens/olaria.jpg"); }
+.madureira .foto-clube { background-image: url("./imagens/madureira.jpg"); }
+.bangu .foto-clube { background-image: url("./imagens/bangu.jpg"); }
+.america .foto-clube { background-image: url("./imagens/america.jpg"); }
+.portuguesa .foto-clube { background-image: url("./imagens/portuguesa.jpg"); }
+.saocristovao .foto-clube { background-image: url("./imagens/saocristovao.jpg"); }
+.bonsucesso .foto-clube { background-image: url("./imagens/bonsucesso.jpg"); }
+.campogrande .foto-clube { background-image: url("./imagens/campogrande.jpg"); }
+.voltaredonda .foto-clube { background-image: url("./imagens/voltaredonda.jpg"); }
+.boavista .foto-clube { background-image: url("./imagens/boavista.jpg"); }
 
 /* =====================================================
-FOTOS DE CADA CLUBE
-===================================================== */
-
-.botafogo .foto-clube {
-background-image:
-url("./imagens/botafogo.jpg");
-}
-
-.flamengo .foto-clube {
-background-image:
-url("./imagens/flamengo.jpg");
-}
-
-.fluminense .foto-clube {
-background-image:
-url("./imagens/fluminense.jpg");
-}
-
-.vasco .foto-clube {
-background-image:
-url("./imagens/vasco.jpg");
-}
-
-.olaria .foto-clube {
-background-image:
-url("./imagens/olaria.jpg");
-}
-
-.madureira .foto-clube {
-background-image:
-url("./imagens/madureira.jpg");
-}
-
-.bangu .foto-clube {
-background-image:
-url("./imagens/bangu.jpg");
-}
-
-.america .foto-clube {
-background-image:
-url("./imagens/america.jpg");
-}
-
-.portuguesa .foto-clube {
-background-image:
-url("./imagens/portuguesa.jpg");
-}
-
-.saocristovao .foto-clube {
-background-image:
-url("./imagens/saocristovao.jpg");
-}
-
-.bonsucesso .foto-clube {
-background-image:
-url("./imagens/bonsucesso.jpg");
-}
-
-.campogrande .foto-clube {
-background-image:
-url("./imagens/campogrande.jpg");
-}
-
-.voltaredonda .foto-clube {
-background-image:
-url("./imagens/voltaredonda.jpg");
-}
-
-.boavista .foto-clube {
-background-image:
-url("./imagens/boavista.jpg");
-}
-
-/* =====================================================
-CONTEÚDO DOS CARDS
-===================================================== */
+   CONTEÚDO DOS CARDS
+   ===================================================== */
 
 .conteudo-clube {
-
-
-padding: 25px;
-
-
+  padding: 25px;
 }
 
 .conteudo-clube > small {
-
-
-color: #4ade80;
-
-font-weight: bold;
-
-
+  color: #4ade80;
+  font-weight: bold;
 }
 
 .conteudo-clube h3 {
-
-
-font-size: 25px;
-
-margin: 4px 0;
-
-
+  font-size: 25px;
+  margin: 4px 0;
 }
 
 .bairro {
-
-
-color: #94a3b8;
-
-font-size: 13px;
-
-margin-bottom: 14px;
-
-
+  color: #94a3b8;
+  font-size: 13px;
+  margin-bottom: 14px;
 }
 
 .conteudo-clube p:not(.bairro) {
-
-
-color: #cbd5e1;
-
-font-size: 14px;
-
-
+  color: #cbd5e1;
+  font-size: 14px;
 }
 
 .fato {
-
-
-margin-top: 18px;
-
-padding: 10px 12px;
-
-border-radius: 8px;
-
-background: #0f172a;
-
-color: #94a3b8;
-
-font-size: 12px;
-
+  margin-top: 18px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #0f172a;
+  color: #94a3b8;
+  font-size: 12px;
 }
 
 /* =====================================================
-PESQUISA
-===================================================== */
+   PESQUISA
+   ===================================================== */
 
 .pesquisa-secao {
-
-
-border-top: 1px solid #1e293b;
-
-
+  border-top: 1px solid #1e293b;
 }
 
 .barra-pesquisa {
-
-
-display: flex;
-
-gap: 8px;
-
-padding: 7px;
-
-background: #172033;
-
-border: 1px solid #334155;
-
-border-radius: 14px;
-
-max-width: 800px;
-
-
+  display: flex;
+  gap: 8px;
+  padding: 7px;
+  background: #172033;
+  border: 1px solid #334155;
+  border-radius: 14px;
+  max-width: 800px;
 }
 
 .barra-pesquisa input {
-
-
-flex: 1;
-
-min-width: 0;
-
-border: 0;
-
-outline: 0;
-
-background: transparent;
-
-color: white;
-
-padding: 14px;
-
-font-size: 16px;
-
-
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
 }
 
 .barra-pesquisa button {
+  border: 0;
+  background: #16a34a;
+  color: white;
+  padding: 0 22px;
+  border-radius: 9px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
 
-
-border: 0;
-
-background: #16a34a;
-
-color: white;
-
-padding: 0 22px;
-
-border-radius: 9px;
-
-font-weight: bold;
-
-cursor: pointer;
-
-
+.barra-pesquisa button:hover {
+  background: #22c55e;
 }
 
 .resultado-pesquisa {
-
-
-max-width: 800px;
-
-margin-top: 20px;
-
-
+  max-width: 800px;
+  margin-top: 20px;
 }
 
 .resultado-item {
-
-
-background: #172033;
-
-border: 1px solid #334155;
-
-padding: 20px;
-
-border-radius: 12px;
-
-margin-bottom: 10px;
-
-
+  background: #172033;
+  border: 1px solid #334155;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 10px;
 }
 
 .resultado-item strong {
-
-
-color: #4ade80;
-
-
+  color: #4ade80;
 }
 
 /* =====================================================
-FOOTER
-===================================================== */
+   RODAPÉ
+   ===================================================== */
 
 footer {
-
-
-text-align: center;
-
-padding: 60px 20px;
-
-background: #020617;
-
-border-top: 1px solid #1e293b;
-
-
+  text-align: center;
+  padding: 60px 20px;
+  background: #020617;
+  border-top: 1px solid #1e293b;
 }
 
 .footer-logo {
-
-
-font-size: 20px;
-
-font-weight: bold;
-
-margin-bottom: 10px;
-
-
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 footer p {
-
-
-color: #64748b;
-
-margin-bottom: 25px;
-
-
+  color: #64748b;
+  margin-bottom: 25px;
 }
 
 .footer-links {
-
-
-display: flex;
-
-justify-content: center;
-
-gap: 22px;
-
-flex-wrap: wrap;
-
-margin-bottom: 25px;
-
-
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
 }
 
 .footer-links a {
-
-
-color: #94a3b8;
-
-text-decoration: none;
-
-
+  color: #94a3b8;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .footer-links a:hover {
-
-
-color: #4ade80;
-
-
+  color: #4ade80;
 }
 
 footer small {
-
-
-color: #475569;
-
-
+  color: #475569;
 }
 
 /* =====================================================
-RESPONSIVO
-===================================================== */
+   RESPONSIVIDADE
+   ===================================================== */
 
 @media (max-width: 900px) {
-
-
-.grade-clubes {
-
-    grid-template-columns:
-        repeat(2, 1fr);
-}
-
-
+  .grade-clubes {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 700px) {
-
-
-.topo {
-
+  .topo {
     padding: 0 20px;
-}
+  }
 
-
-nav {
-
+  nav {
     display: none;
-
     position: absolute;
-
     top: 74px;
-
     left: 15px;
-
     right: 15px;
-
     flex-direction: column;
-
     gap: 0;
-
     padding: 10px;
-
     background: #172033;
-
     border: 1px solid #334155;
-
     border-radius: 12px;
-}
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+  }
 
-
-nav.aberto {
-
+  nav.aberto {
     display: flex;
-}
+  }
 
-
-nav a {
-
+  nav a {
     padding: 12px;
-}
+    border-bottom: 1px solid #263449;
+  }
 
+  nav a:last-child {
+    border-bottom: 0;
+  }
 
-.menu-mobile {
-
+  .menu-mobile {
     display: block;
-}
+  }
 
-
-.hero {
-
+  .hero {
     padding: 80px 25px;
-
     min-height: 570px;
-}
+  }
 
-
-.hero h1 {
-
+  .hero h1 {
     font-size: 47px;
-}
+  }
 
-
-.bola-decoracao {
-
+  .bola-decoracao {
     right: -80px;
-
     font-size: 220px;
-}
+  }
 
-
-.grade-clubes {
-
+  .grade-clubes {
     grid-template-columns: 1fr;
-}
+  }
 
-
-.barra-pesquisa {
-
+  .barra-pesquisa {
     flex-direction: column;
-}
+  }
 
-
-.barra-pesquisa button {
-
+  .barra-pesquisa button {
     height: 50px;
-}
-
-
+    width: 100%;
+  }
 }
