@@ -99,7 +99,7 @@ document.getElementById("resultadoPesquisa");
 
 function pesquisar() {
 
-```
+
 const termo =
     campoPesquisa.value
     .trim()
@@ -194,7 +194,7 @@ resultadoPesquisa.innerHTML =
         </div>
 
     `).join("");
-```
+
 
 }
 
@@ -207,7 +207,7 @@ campoPesquisa.addEventListener(
 "keydown",
 event => {
 
-```
+
     if (event.key === "Enter") {
 
         pesquisar();
@@ -215,7 +215,7 @@ event => {
     }
 
 }
-```
+
 
 );
 
@@ -227,7 +227,7 @@ const observador =
 new IntersectionObserver(
 entradas => {
 
-```
+
         entradas.forEach(entrada => {
 
             if (entrada.isIntersecting) {
@@ -246,11 +246,11 @@ entradas => {
         threshold: 0.08
     }
 );
-```
+
 
 clubes.forEach(clube => {
 
-```
+
 clube.style.opacity = "0";
 
 clube.style.transform =
@@ -260,6 +260,6 @@ clube.style.transition =
     "opacity 0.5s ease, transform 0.5s ease";
 
 observador.observe(clube);
-```
+
 
 });
