@@ -15,21 +15,19 @@ document.getElementById("menu");
 
 menuMobile.addEventListener("click", () => {
 
-```
 menu.classList.toggle("aberto");
-```
 
 });
 
 document.querySelectorAll("nav a").forEach(link => {
 
-```
+
 link.addEventListener("click", () => {
 
     menu.classList.remove("aberto");
 
 });
-```
+
 
 });
 
@@ -45,7 +43,7 @@ document.querySelectorAll(".card-clube");
 
 filtros.forEach(filtro => {
 
-```
+
 filtro.addEventListener("click", () => {
 
 
@@ -82,7 +80,7 @@ filtro.addEventListener("click", () => {
     });
 
 });
-```
+
 
 });
 
