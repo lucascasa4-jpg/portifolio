@@ -343,7 +343,7 @@ nav a:hover {
 
 /* FOTOS ESPECÍFICAS DE CADA CLUBE */
 .botafogo .foto-clube { background-image: url("./imagens/botafogo.jpg"); }
-.flamengo .foto-clube { background-image: url("./imagens/flamengo.jpg"); }
+.flamengo .foto-clube { background-image: url("./flamengo.jpg"); }
 .fluminense .foto-clube { background-image: url("./fluminense.jpg.jpg"); }
 .vasco .foto-clube { background-image: url("./imagens/vasco.jpg"); }
 .olaria .foto-clube { background-image: url("./olaria.jpg"); }
