@@ -1,174 +1,1064 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A História dos clubes Clubes Cariocas</title>
-  <style>
-    /* Estilos Gerais (Paleta de Cores & Leitura) */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0f172a;
-      color: #f1f5f9;
-      line-height: 1.6;
-      padding: 20px;
-    }
-    header {
-      text-align: center;
-      padding: 40px 20px;
-      background: linear-gradient(135deg, #1e293b, #0f172a);
-      border-bottom: 2px solid #334155;
-      border-radius: 12px;
-      margin-bottom: 30px;
-    }
-    header h1 {
-      font-size: 2.2rem;
-      color: #38bdf8;
-      margin-bottom: 10px;
-    }
-    header p {
-      color: #94a3b8;
-      font-size: 1.1rem;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 25px;
-    }
-    .card-clube {
-      background-color: #1e293b;
-      border-radius: 12px;
-      padding: 25px;
-      border-left: 6px solid #38bdf8;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      transition: transform 0.2s ease;
-    }
-    .card-clube:hover {
-      transform: translateY(-3px);
-    }
-    /* Cores das bordas temáticas dos clubes */
-    .botafogo { border-left-color: #e2e8f0; }
-    .flamengo { border-left-color: #ef4444; }
-    .fluminense { border-left-color: #10b981; }
-    .vasco { border-left-color: #94a3b8; }
-    .olaria { border-left-color: #10b981; }
-    
-    .card-clube h2 {
-      font-size: 1.6rem;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .fundacao {
-      font-size: 0.9rem;
-      color: #f59e0b;
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
-    .card-clube p {
-      color: #cbd5e1;
-      margin-bottom: 12px;
-    }
-    .destaque {
-      background-color: #0f172a;
-      padding: 12px;
-      border-radius: 8px;
-      font-size: 0.95rem;
-      color: #94a3b8;
-    }
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      padding: 20px;
-      color: #64748b;
-      font-size: 0.9rem;
-      border-top: 1px solid #334155;
-    }
-  </style>
+
+```
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<meta
+    name="description"
+    content="História dos clubes de futebol do Rio de Janeiro."
+>
+
+<title>História do Futebol Carioca</title>
+
+<link
+    rel="stylesheet"
+    href="estilo.css"
+>
+```
+
 </head>
+
 <body>
 
-  <header>
-    <h1>⚽ Os Quatro Gigantes do Futebol Carioca</h1>
-    <p>A origem e a tradição dos grandes clubes do Rio de Janeiro</p>
-  </header>
+<!-- ==================================================
+     CABEÇALHO
+================================================== -->
 
-  <div class="container">
+<header class="topo">
 
-    <!-- Botafogo -->
-    <article class="card-clube botafogo">
-      <h2>Botafogo de Futebol e Regatas ⭐</h2>
-      <div class="fundacao">Fundação: 1894 | 1904 (Futebol)</div>
-      <p>Nascido no bairro de mesmo nome, o Botafogo surgiu da fusão entre o Clube de Regatas Botafogo e o Botafogo Football Club. Conhecido como "O Glorioso", o clube marcou época na Seleção Brasileira, sendo a principal base das conquistas das Copas do Mundo de 1958 e 1962, revelando lendas imortais como Garrincha, Nilton Santos e Didi.</p>
-      <div class="destaque">
-        <strong>Fato Marcante:</strong> É o clube que mais cedeu jogadores para a Seleção Brasileira na história das Copas do Mundo.
-      </div>
-    </article>
+```
+<div class="logo">
 
-    <!-- Flamengo -->
-    <article class="card-clube flamengo">
-      <h2>Clube de Regatas do Flamengo 🔴⚫</h2>
-      <div class="fundacao">Fundação: 1895 | 1911 (Futebol)</div>
-      <p>Fundado no bairro do Flamengo para disputas de remo, o futebol do clube nasceu em 1911 após uma dissidência de jogadores do Fluminense. O Flamengo construiu a maior torcida do país e viveu sua era de ouro na década de 1980 sob o comando de Zico, conquistando a Taça Libertadores e o Mundial de Clubes em 1981.</p>
-      <div class="destaque">
-        <strong>Fato Marcante:</strong> Dono da maior torcida do Brasil e de uma das maiores do mundo, conhecida mundialmente como a "Nação Rubro-Negra".
-      </div>
-    </article>
+    <div class="logo-icone">
+        ⚽
+    </div>
 
-    <!-- Fluminense -->
-    <article class="card-clube fluminense">
-      <h2>Fluminense Football Club 🟢⚪🔴</h2>
-      <div class="fundacao">Fundação: 1902</div>
-      <p>Fundado por Oscar Cox no tradicional bairro das Laranjeiras, o Fluminense foi o primeiro clube carioca concebido exclusivamente para a prática do futebol. Pioneiro na popularização do esporte na cidade, o "Tricolor das Laranjeiras" é reconhecido por sua tradição, elegância e por formar grandes talentos em sua academia de base em Xerém.</p>
-      <div class="destaque">
-        <strong>Fato Marcante:</strong> O Estádio de Laranjeiras foi o primeiro estádio de cimento da América Latina e palco dos primeiros jogos da Seleção Brasileira.
-      </div>
-    </article>
+    <div>
 
-    <!-- Vasco -->
-    <article class="card-clube vasco">
-      <h2>Club de Regatas Vasco da Gama 💢</h2>
-      <div class="fundacao">Fundação: 1898 | 1915 (Futebol)</div>
-      <p>Fundado por imigrantes portugueses na zona portuária do Rio, o Vasco tem uma das histórias mais marcantes de inclusão social no esporte. Com o time histórico de 1923, conhecido como "Os Camisas Negras", o clube venceu o campeonato e lutou contra o preconceito, exigindo a inclusão de jogadores negros e operários no futebol de elite.</p>
-      <div class="destaque">
-        <strong>Fato Marcante:</strong> A construção do Estádio de São Januário em 1927, financiada totalmente pela contribuição dos seus próprios torcedores.
-      </div>
-    </article>
-    <!-- Olaria -->
-  <article class="card-clube">
-    <h2>Olaria Atlético Clube 🔵⚪</h2>
-    <div class="info-clube">Fundação: 3 de setembro de 1915 | Bairro: Olaria</div>
-    <p>Fundado originalmente como <em>Japão Futebol Clube</em>, o clube mudou de nome para homenagear o bairro da Zona Leopoldina. O Olaria construiu uma trajetória de forte identificação com a comunidade local e com o tradicional Estádio da Rua Bariri (Engenheiro Mourão Vieira).
-    </p>
+        <strong>
+            Futebol Carioca
+        </strong>
+
+        <span>
+            História & Tradição
+        </span>
+
+    </div>
+
+</div>
+
+
+<nav id="menu">
+
+    <a href="#inicio">
+        Início
+    </a>
+
+    <a href="#clubes">
+        Clubes
+    </a>
+
+    <a href="#historia">
+        História
+    </a>
+
+    <a href="#pesquisa">
+        Pesquisar
+    </a>
+
+</nav>
+
+
+<button
+    class="menu-mobile"
+    id="menuMobile"
+    type="button"
+>
+    ☰
+</button>
+```
+
+</header>
+
+<!-- ==================================================
+     HERO
+================================================== -->
+
+<section
+    class="hero"
+    id="inicio"
+>
+
+```
+<div class="hero-conteudo">
+
+    <span class="etiqueta">
+        ⚽ MEMÓRIA DO FUTEBOL
+    </span>
+
+
+    <h1>
+
+        A história dos
+        <span>clubes cariocas</span>
+
+    </h1>
+
+
     <p>
-      Sua maior conquista nacional ocorreu em 1981, quando sagrou-se <strong>Campeão Brasileiro da Taça de Bronze (Série C)</strong>. O clube também ficou eternizado por ser o local onde a lenda <strong>Garrincha</strong> jogou em 1972 na fase final de sua carreira, e por ter revelado o atacante Romário nas suas categorias de base antes de sua ida para o Vasco.
-    </p>
-  </article>
-    <!-- Madureira Esporte Clube -->
-  <article class="card-clube">
-    <h2>Madureira Esporte Clube 🟡🔵🔴</h2>
-    <div class="info-clube">Fundação: 16 de fevereiro de 1914 | Bairro: Madureira</div>
-    <p>
-      Nascido como <em>Furlani Football Club</em> e rebatizado no coração do bairro mais cultural do subúrbio carioca, o Madureira é conhecido como o "Tricolor Suburbano". O clube é famoso por sua intensa produção de talentos na base e pela tradição no Estádio Aniceto Moscoso (Rua Conselheiro Galvão).
-    </p>
-    <p>
-      Um dos episódios mais marcantes da sua história foi a **excursão histórica a Cuba em 1963**, onde a equipe permaneceu invicta em solo cubano e teve um encontro memorável com o líder Che Guevara. O Madureira foi vice-campeão carioca em 1936 e 2006, além de conquistar a Taça Rio em 2006 e 2015.
-    </p>
-  </article>
 
-  </div>
+        Conheça as histórias, conquistas,
+        estádios e personagens que ajudaram
+        a construir o futebol do Rio de Janeiro.
 
-  <footer>
-    <p>&copy; 2026 História do Futebol Carioca - Desenvolvido por Lucas</p>
-  </footer>
+    </p>
+
+
+    <div class="hero-botoes">
+
+        <a
+            href="#clubes"
+            class="botao-principal"
+        >
+            🏆 Conhecer os clubes
+        </a>
+
+        <a
+            href="#historia"
+            class="botao-secundario"
+        >
+            📖 Conhecer a história
+        </a>
+
+    </div>
+
+</div>
+
+
+<div class="bola-decoracao">
+    ⚽
+</div>
+```
+
+</section>
+
+<!-- ==================================================
+     INTRODUÇÃO
+================================================== -->
+
+<section
+    class="introducao"
+    id="historia"
+>
+
+```
+<div class="introducao-conteudo">
+
+    <span class="etiqueta">
+        RIO DE JANEIRO
+    </span>
+
+
+    <h2>
+        Mais que futebol.
+        <br>
+        Uma história.
+    </h2>
+
+
+    <p>
+
+        O futebol carioca faz parte da cultura
+        e da identidade do Rio de Janeiro.
+        Ao longo de mais de um século, clubes
+        de diferentes bairros ajudaram a construir
+        uma das histórias esportivas mais ricas
+        do Brasil.
+
+    </p>
+
+
+    <p>
+
+        Dos grandes estádios aos campos dos
+        subúrbios, cada clube possui personagens,
+        conquistas e momentos que merecem ser
+        lembrados.
+
+    </p>
+
+</div>
+```
+
+</section>
+
+<!-- ==================================================
+     CLUBES
+================================================== -->
+
+<section
+    class="clubes-secao"
+    id="clubes"
+>
+
+```
+<div class="titulo-secao">
+
+    <span>
+        🏆
+    </span>
+
+    <div>
+
+        <small>
+            CLUBES DO RIO
+        </small>
+
+        <h2>
+            Grandes histórias
+        </h2>
+
+    </div>
+
+</div>
+
+
+<!-- FILTROS -->
+
+<div class="filtros">
+
+    <button
+        class="filtro ativo"
+        data-filtro="todos"
+    >
+        Todos
+    </button>
+
+    <button
+        class="filtro"
+        data-filtro="grande"
+    >
+        Grandes
+    </button>
+
+    <button
+        class="filtro"
+        data-filtro="tradicional"
+    >
+        Tradicionais
+    </button>
+
+    <button
+        class="filtro"
+        data-filtro="historico"
+    >
+        Históricos
+    </button>
+
+</div>
+
+
+
+<div class="grade-clubes">
+
+
+
+    <!-- BOTAFOGO -->
+
+    <article
+        class="card-clube botafogo"
+        data-categoria="grande"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                ⭐
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1894
+            </small>
+
+            <h3>
+                Botafogo
+            </h3>
+
+            <p class="bairro">
+                📍 Botafogo
+            </p>
+
+            <p>
+
+                Um dos clubes mais tradicionais
+                do futebol brasileiro, conhecido
+                como O Glorioso.
+
+            </p>
+
+            <div class="fato">
+                ⭐ Garrincha e Nilton Santos
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- FLAMENGO -->
+
+    <article
+        class="card-clube flamengo"
+        data-categoria="grande"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🔴⚫
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1895
+            </small>
+
+            <h3>
+                Flamengo
+            </h3>
+
+            <p class="bairro">
+                📍 Rio de Janeiro
+            </p>
+
+            <p>
+
+                O Rubro-Negro nasceu no remo
+                e se tornou um dos clubes mais
+                populares do Brasil.
+
+            </p>
+
+            <div class="fato">
+                🏆 Libertadores e Mundial de 1981
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- FLUMINENSE -->
+
+    <article
+        class="card-clube fluminense"
+        data-categoria="grande"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🟢⚪🔴
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1902
+            </small>
+
+            <h3>
+                Fluminense
+            </h3>
+
+            <p class="bairro">
+                📍 Laranjeiras
+            </p>
+
+            <p>
+
+                Fundado por Oscar Cox, o Tricolor
+                possui uma das histórias mais
+                tradicionais do futebol brasileiro.
+
+            </p>
+
+            <div class="fato">
+                🏟️ Estádio de Laranjeiras
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- VASCO -->
+
+    <article
+        class="card-clube vasco"
+        data-categoria="grande"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                ⚫⚪
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1898
+            </small>
+
+            <h3>
+                Vasco da Gama
+            </h3>
+
+            <p class="bairro">
+                📍 São Januário
+            </p>
+
+            <p>
+
+                Um dos maiores símbolos da luta
+                contra o preconceito e da inclusão
+                social no futebol.
+
+            </p>
+
+            <div class="fato">
+                🏟️ São Januário
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- OLARIA -->
+
+    <article
+        class="card-clube olaria"
+        data-categoria="tradicional"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🔵⚪
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1915
+            </small>
+
+            <h3>
+                Olaria
+            </h3>
+
+            <p class="bairro">
+                📍 Olaria
+            </p>
+
+            <p>
+
+                Clube tradicional da Zona Leopoldina
+                e dono de forte identidade com
+                seu bairro.
+
+            </p>
+
+            <div class="fato">
+                🏆 Taça de Bronze de 1981
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- MADUREIRA -->
+
+    <article
+        class="card-clube madureira"
+        data-categoria="tradicional"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🟡🔵🔴
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1914
+            </small>
+
+            <h3>
+                Madureira
+            </h3>
+
+            <p class="bairro">
+                📍 Madureira
+            </p>
+
+            <p>
+
+                O tradicional Tricolor Suburbano
+                representa um dos bairros mais
+                culturais do Rio.
+
+            </p>
+
+            <div class="fato">
+                🌎 Excursão histórica a Cuba
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- BANGU -->
+
+    <article
+        class="card-clube bangu"
+        data-categoria="tradicional"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🔴⚪
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1904
+            </small>
+
+            <h3>
+                Bangu
+            </h3>
+
+            <p class="bairro">
+                📍 Bangu
+            </p>
+
+            <p>
+
+                Clube histórico da Zona Oeste,
+                marcado pela tradição e pela
+                presença de operários.
+
+            </p>
+
+            <div class="fato">
+                🏆 Campeonato Carioca de 1966
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- AMÉRICA -->
+
+    <article
+        class="card-clube america"
+        data-categoria="historico"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🔴
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1904
+            </small>
+
+            <h3>
+                América-RJ
+            </h3>
+
+            <p class="bairro">
+                📍 Tijuca
+            </p>
+
+            <p>
+
+                Tradicional clube carioca conhecido
+                como Mecão e dono de uma história
+                centenária.
+
+            </p>
+
+            <div class="fato">
+                🏆 7 Campeonatos Cariocas
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- PORTUGUESA -->
+
+    <article
+        class="card-clube portuguesa"
+        data-categoria="tradicional"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🔴🟢
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1924
+            </small>
+
+            <h3>
+                Portuguesa-RJ
+            </h3>
+
+            <p class="bairro">
+                📍 Ilha do Governador
+            </p>
+
+            <p>
+
+                Tradicional clube da Ilha do
+                Governador, conhecido como
+                Lusa Carioca.
+
+            </p>
+
+            <div class="fato">
+                🏟️ Estádio Luso-Brasileiro
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- SÃO CRISTÓVÃO -->
+
+    <article
+        class="card-clube saocristovao"
+        data-categoria="historico"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                ⚪⚫
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1898
+            </small>
+
+            <h3>
+                São Cristóvão
+            </h3>
+
+            <p class="bairro">
+                📍 São Cristóvão
+            </p>
+
+            <p>
+
+                Clube tradicional que revelou
+                grandes jogadores do futebol
+                brasileiro.
+
+            </p>
+
+            <div class="fato">
+                ⭐ Ronaldo começou no clube
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- BONSUCESSO -->
+
+    <article
+        class="card-clube bonsucesso"
+        data-categoria="historico"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🔴🔵
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1913
+            </small>
+
+            <h3>
+                Bonsucesso
+            </h3>
+
+            <p class="bairro">
+                📍 Bonsucesso
+            </p>
+
+            <p>
+
+                Um dos clubes tradicionais da
+                Zona Norte do Rio de Janeiro.
+
+            </p>
+
+            <div class="fato">
+                🏟️ Estádio Leônidas da Silva
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- CAMPO GRANDE -->
+
+    <article
+        class="card-clube campogrande"
+        data-categoria="historico"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                ⚪⚫
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1908
+            </small>
+
+            <h3>
+                Campo Grande
+            </h3>
+
+            <p class="bairro">
+                📍 Campo Grande
+            </p>
+
+            <p>
+
+                Clube tradicional da Zona Oeste,
+                conhecido pela camisa alvinegra.
+
+            </p>
+
+            <div class="fato">
+                🏆 Campeão Brasileiro de 1982
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- VOLTA REDONDA -->
+
+    <article
+        class="card-clube voltaredonda"
+        data-categoria="historico"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🟡⚫
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1976
+            </small>
+
+            <h3>
+                Volta Redonda
+            </h3>
+
+            <p class="bairro">
+                📍 Volta Redonda
+            </p>
+
+            <p>
+
+                Um dos principais clubes do interior
+                do estado do Rio de Janeiro.
+
+            </p>
+
+            <div class="fato">
+                🏆 Copa Rio 2016
+            </div>
+
+        </div>
+
+    </article>
+
+
+
+    <!-- BOAVISTA -->
+
+    <article
+        class="card-clube boavista"
+        data-categoria="historico"
+    >
+
+        <div class="foto-clube">
+
+            <span>
+                🟢⚪
+            </span>
+
+        </div>
+
+
+        <div class="conteudo-clube">
+
+            <small>
+                1961
+            </small>
+
+            <h3>
+                Boavista
+            </h3>
+
+            <p class="bairro">
+                📍 Saquarema
+            </p>
+
+            <p>
+
+                Clube do interior fluminense que
+                ganhou destaque no futebol estadual.
+
+            </p>
+
+            <div class="fato">
+                🏆 Copa Rio 2010
+            </div>
+
+        </div>
+
+    </article>
+
+
+</div>
+```
+
+</section>
+
+<!-- ==================================================
+     PESQUISA
+================================================== -->
+
+<section
+    class="pesquisa-secao"
+    id="pesquisa"
+>
+
+```
+<div class="titulo-secao">
+
+    <span>
+        🔎
+    </span>
+
+    <div>
+
+        <small>
+            ENCONTRE UM CLUBE
+        </small>
+
+        <h2>
+            Pesquisar
+        </h2>
+
+    </div>
+
+</div>
+
+
+<div class="barra-pesquisa">
+
+    <input
+        type="text"
+        id="campoPesquisa"
+        placeholder="Digite o nome de um clube..."
+        autocomplete="off"
+    >
+
+
+    <button
+        id="botaoPesquisa"
+        type="button"
+    >
+
+        🔎 Pesquisar
+
+    </button>
+
+</div>
+
+
+<div
+    class="resultado-pesquisa"
+    id="resultadoPesquisa"
+></div>
+```
+
+</section>
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+<footer>
+
+```
+<div class="footer-logo">
+
+    ⚽ Futebol Carioca
+
+</div>
+
+
+<p>
+
+    História, memória e paixão pelo futebol
+    do Rio de Janeiro.
+
+</p>
+
+
+<div class="footer-links">
+
+    <a href="#inicio">
+        Início
+    </a>
+
+    <a href="#clubes">
+        Clubes
+    </a>
+
+    <a href="#historia">
+        História
+    </a>
+
+    <a href="#pesquisa">
+        Pesquisa
+    </a>
+
+</div>
+
+
+<small>
+
+    © 2026 História do Futebol Carioca
+
+</small>
+```
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
