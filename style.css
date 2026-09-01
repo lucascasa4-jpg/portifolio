@@ -344,12 +344,12 @@ nav a:hover {
 /* FOTOS ESPECÍFICAS DE CADA CLUBE */
 .botafogo .foto-clube { background-image: url("./imagens/botafogo.jpg"); }
 .flamengo .foto-clube { background-image: url("./imagens/flamengo.jpg"); }
-.fluminense .foto-clube { background-image: url("./imagens/fluminense.jpg"); }
+.fluminense .foto-clube { background-image: url("./fluminense.jpg.jpg"); }
 .vasco .foto-clube { background-image: url("./imagens/vasco.jpg"); }
-.olaria .foto-clube { background-image: url("./imagens/olaria.jpg"); }
+.olaria .foto-clube { background-image: url("./imagens/olaria,jpg.jfif"); }
 .madureira .foto-clube { background-image: url("./imagens/madureira.jpg"); }
-.bangu .foto-clube { background-image: url("./imagens/bangu.jpg"); }
-.america .foto-clube { background-image: url("./imagens/america.jpg"); }
+.bangu .foto-clube { background-image: url("./bangu.jpg.jpeg"); }
+.america .foto-clube { background-image: url("./américa.jpg.jpeg"); }
 .portuguesa .foto-clube { background-image: url("./imagens/portuguesa.jpg"); }
 .saocristovao .foto-clube { background-image: url("./imagens/saocristovao.jpg"); }
 .bonsucesso .foto-clube { background-image: url("./imagens/bonsucesso.jpg"); }
