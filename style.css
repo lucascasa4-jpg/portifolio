@@ -116,7 +116,7 @@ nav a:hover {
       rgba(2, 6, 23, 0.68),
       rgba(2, 6, 23, 0.25)
     ),
-    url("./imagens/futebol.jpg") center / cover no-repeat;
+    url("./futebol.jpg") center / cover no-repeat;
 }
 
 .hero-conteudo {
