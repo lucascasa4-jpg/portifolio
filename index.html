@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A História dos Grandes Clubes Cariocas</title>
+  <style>
+    /* Estilos Gerais (Paleta de Cores & Leitura) */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border-bottom: 2px solid #334155;
+      border-radius: 12px;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+    header p {
+      color: #94a3b8;
+      font-size: 1.1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .card-clube {
+      background-color: #1e293b;
+      border-radius: 12px;
+      padding: 25px;
+      border-left: 6px solid #38bdf8;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+    }
+    .card-clube:hover {
+      transform: translateY(-3px);
+    }
+    /* Cores das bordas temáticas dos clubes */
+    .botafogo { border-left-color: #e2e8f0; }
+    .flamengo { border-left-color: #ef4444; }
+    .fluminense { border-left-color: #10b981; }
+    .vasco { border-left-color: #94a3b8; }
+
+    .card-clube h2 {
+      font-size: 1.6rem;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .fundacao {
+      font-size: 0.9rem;
+      color: #f59e0b;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .card-clube p {
+      color: #cbd5e1;
+      margin-bottom: 12px;
+    }
+    .destaque {
+      background-color: #0f172a;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: #94a3b8;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      color: #64748b;
+      font-size: 0.9rem;
+      border-top: 1px solid #334155;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>⚽ Os Quatro Gigantes do Futebol Carioca</h1>
+    <p>A origem e a tradição dos grandes clubes do Rio de Janeiro</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Botafogo -->
+    <article class="card-clube botafogo">
+      <h2>Botafogo de Futebol e Regatas ⭐</h2>
+      <div class="fundacao">Fundação: 1894 (Remo) | 1904 (Futebol)</div>
+      <p>Nascido no bairro de mesmo nome, o Botafogo surgiu da fusão entre o Clube de Regatas Botafogo e o Botafogo Football Club. Conhecido como "O Glorioso", o clube marcou época na Seleção Brasileira, sendo a principal base das conquistas das Copas do Mundo de 1958 e 1962, revelando lendas imortais como Garrincha, Nilton Santos e Didi.</p>
+      <div class="destaque">
+        <strong>Fato Marcante:</strong> É o clube que mais cedeu jogadores para a Seleção Brasileira na história das Copas do Mundo.
+      </div>
+    </article>
+
+    <!-- Flamengo -->
+    <article class="card-clube flamengo">
+      <h2>Clube de Regatas do Flamengo 🔴⚫</h2>
+      <div class="fundacao">Fundação: 1895 (Remo) | 1911 (Futebol)</div>
+      <p>Fundado no bairro do Flamengo para disputas de remo, o futebol do clube nasceu em 1911 após uma dissidência de jogadores do Fluminense. O Flamengo construiu a maior torcida do país e viveu sua era de ouro na década de 1980 sob o comando de Zico, conquistando a Taça Libertadores e o Mundial de Clubes em 1981.</p>
+      <div class="destaque">
+        <strong>Fato Marcante:</strong> Dono da maior torcida do Brasil e de uma das maiores do mundo, conhecida mundialmente como a "Nação Rubro-Negra".
+      </div>
+    </article>
+
+    <!-- Fluminense -->
+    <article class="card-clube fluminense">
+      <h2>Fluminense Football Club 🟢⚪🔴</h2>
+      <div class="fundacao">Fundação: 1902</div>
+      <p>Fundado por Oscar Cox no tradicional bairro das Laranjeiras, o Fluminense foi o primeiro clube carioca concebido exclusivamente para a prática do futebol. Pioneiro na popularização do esporte na cidade, o "Tricolor das Laranjeiras" é reconhecido por sua tradição, elegância e por formar grandes talentos em sua academia de base em Xerém.</p>
+      <div class="destaque">
+        <strong>Fato Marcante:</strong> O Estádio de Laranjeiras foi o primeiro estádio de cimento da América Latina e palco dos primeiros jogos da Seleção Brasileira.
+      </div>
+    </article>
+
+    <!-- Vasco -->
+    <article class="card-clube vasco">
+      <h2>Club de Regatas Vasco da Gama 💢</h2>
+      <div class="fundacao">Fundação: 1898 (Remo) | 1915 (Futebol)</div>
+      <p>Fundado por imigrantes portugueses na zona portuária do Rio, o Vasco tem uma das histórias mais marcantes de inclusão social no esporte. Com o time histórico de 1923, conhecido como "Os Camisas Negras", o clube venceu o campeonato e lutou contra o preconceito, exigindo a inclusão de jogadores negros e operários no futebol de elite.</p>
+      <div class="destaque">
+        <strong>Fato Marcante:</strong> A construção do Estádio de São Januário em 1927, financiada totalmente pela contribuição dos seus próprios torcedores.
+      </div>
+    </article>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 História do Futebol Carioca - Desenvolvido por Lucas</p>
+  </footer>
+
+</body>
+</html>
