@@ -151,7 +151,6 @@ color: #4ade80;
 
 .menu-mobile {
 
-```
 display: none;
 
 border: 0;
@@ -167,7 +166,7 @@ height: 42px;
 border-radius: 10px;
 
 font-size: 20px;
-```
+
 
 }
 
@@ -177,7 +176,7 @@ HERO
 
 .hero {
 
-```
+
 min-height: 620px;
 
 position: relative;
@@ -201,25 +200,25 @@ background:
 
     url("./imagens/futebol.jpg")
     center / cover no-repeat;
-```
+
 
 }
 
 .hero-conteudo {
 
-```
+
 max-width: 720px;
 
 position: relative;
 
 z-index: 2;
-```
+
 
 }
 
 .etiqueta {
 
-```
+
 display: inline-block;
 
 color: #86efac;
@@ -237,13 +236,13 @@ font-size: 11px;
 font-weight: bold;
 
 letter-spacing: 1.5px;
-```
+
 
 }
 
 .hero h1 {
 
-```
+
 font-size: clamp(45px, 7vw, 78px);
 
 line-height: 1.03;
@@ -251,33 +250,33 @@ line-height: 1.03;
 margin: 25px 0;
 
 letter-spacing: -3px;
-```
+
 
 }
 
 .hero h1 span {
 
-```
+
 color: #4ade80;
-```
+
 
 }
 
 .hero p {
 
-```
+
 max-width: 620px;
 
 color: #cbd5e1;
 
 font-size: 19px;
-```
+
 
 }
 
 .hero-botoes {
 
-```
+
 display: flex;
 
 gap: 12px;
@@ -285,13 +284,13 @@ gap: 12px;
 flex-wrap: wrap;
 
 margin-top: 32px;
-```
+
 
 }
 
 .hero-botoes a {
 
-```
+
 padding: 14px 22px;
 
 border-radius: 10px;
@@ -301,53 +300,53 @@ text-decoration: none;
 font-weight: bold;
 
 transition: 0.25s;
-```
+
 
 }
 
 .botao-principal {
 
-```
+
 background: #16a34a;
 
 color: white;
-```
+
 
 }
 
 .botao-principal:hover {
 
-```
+
 background: #22c55e;
 
 transform: translateY(-2px);
-```
+
 
 }
 
 .botao-secundario {
 
-```
+
 color: white;
 
 background: rgba(255,255,255,0.08);
 
 border: 1px solid #475569;
-```
+
 
 }
 
 .botao-secundario:hover {
 
-```
+
 background: rgba(255,255,255,0.15);
-```
+
 
 }
 
 .bola-decoracao {
 
-```
+
 position: absolute;
 
 right: 7%;
@@ -357,7 +356,7 @@ font-size: 300px;
 opacity: 0.08;
 
 transform: rotate(-15deg);
-```
+
 
 }
 
@@ -367,39 +366,39 @@ INTRODUÇÃO
 
 .introducao {
 
-```
+
 padding: 100px 20px;
 
 background: #111827;
-```
+
 
 }
 
 .introducao-conteudo {
 
-```
+
 max-width: 850px;
 
 margin: auto;
-```
+
 
 }
 
 .introducao h2 {
 
-```
+
 font-size: clamp(36px, 5vw, 55px);
 
 line-height: 1.1;
 
 margin: 20px 0;
-```
+
 
 }
 
 .introducao p {
 
-```
+
 max-width: 750px;
 
 color: #94a3b8;
@@ -407,7 +406,7 @@ color: #94a3b8;
 font-size: 18px;
 
 margin-bottom: 18px;
-```
+
 
 }
 
@@ -418,19 +417,19 @@ CLUBES
 .clubes-secao,
 .pesquisa-secao {
 
-```
+
 max-width: 1250px;
 
 margin: auto;
 
 padding: 100px 20px;
-```
+
 
 }
 
 .titulo-secao {
 
-```
+
 display: flex;
 
 gap: 15px;
@@ -438,21 +437,21 @@ gap: 15px;
 align-items: center;
 
 margin-bottom: 35px;
-```
+
 
 }
 
 .titulo-secao > span {
 
-```
+
 font-size: 38px;
-```
+
 
 }
 
 .titulo-secao small {
 
-```
+
 color: #4ade80;
 
 font-size: 11px;
@@ -460,17 +459,17 @@ font-size: 11px;
 letter-spacing: 2px;
 
 font-weight: bold;
-```
+
 
 }
 
 .titulo-secao h2 {
 
-```
+
 font-size: 34px;
 
 margin-top: 4px;
-```
+
 
 }
 
@@ -480,7 +479,7 @@ FILTROS
 
 .filtros {
 
-```
+
 display: flex;
 
 gap: 10px;
@@ -488,13 +487,13 @@ gap: 10px;
 flex-wrap: wrap;
 
 margin-bottom: 30px;
-```
+
 
 }
 
 .filtro {
 
-```
+
 border: 1px solid #334155;
 
 background: #111827;
@@ -508,20 +507,19 @@ border-radius: 30px;
 cursor: pointer;
 
 transition: 0.2s;
-```
 
 }
 
 .filtro:hover,
 .filtro.ativo {
 
-```
+
 background: #16a34a;
 
 color: white;
 
 border-color: #16a34a;
-```
+
 
 }
 
@@ -531,20 +529,19 @@ GRADE
 
 .grade-clubes {
 
-```
+
 display: grid;
 
 grid-template-columns:
     repeat(3, 1fr);
 
 gap: 22px;
-```
+
 
 }
 
 .card-clube {
 
-```
 overflow: hidden;
 
 background: #172033;
@@ -557,20 +554,20 @@ transition: 0.3s;
 
 box-shadow:
     0 12px 30px rgba(0,0,0,0.18);
-```
+
 
 }
 
 .card-clube:hover {
 
-```
+
 transform: translateY(-7px);
 
 border-color: #475569;
 
 box-shadow:
     0 20px 45px rgba(0,0,0,0.3);
-```
+
 
 }
 
@@ -580,7 +577,7 @@ FOTOS
 
 .foto-clube {
 
-```
+
 height: 190px;
 
 position: relative;
@@ -594,13 +591,13 @@ justify-content: center;
 background-position: center;
 
 background-size: cover;
-```
+
 
 }
 
 .foto-clube::after {
 
-```
+
 content: "";
 
 position: absolute;
@@ -613,13 +610,13 @@ background:
         rgba(2,6,23,0.75),
         transparent
     );
-```
+
 
 }
 
 .foto-clube span {
 
-```
+
 position: relative;
 
 z-index: 2;
@@ -628,7 +625,7 @@ font-size: 42px;
 
 filter:
     drop-shadow(0 4px 10px rgba(0,0,0,0.5));
-```
+
 
 }
 
@@ -712,57 +709,57 @@ CONTEÚDO DOS CARDS
 
 .conteudo-clube {
 
-```
+
 padding: 25px;
-```
+
 
 }
 
 .conteudo-clube > small {
 
-```
+
 color: #4ade80;
 
 font-weight: bold;
-```
+
 
 }
 
 .conteudo-clube h3 {
 
-```
+
 font-size: 25px;
 
 margin: 4px 0;
-```
+
 
 }
 
 .bairro {
 
-```
+
 color: #94a3b8;
 
 font-size: 13px;
 
 margin-bottom: 14px;
-```
+
 
 }
 
 .conteudo-clube p:not(.bairro) {
 
-```
+
 color: #cbd5e1;
 
 font-size: 14px;
-```
+
 
 }
 
 .fato {
 
-```
+
 margin-top: 18px;
 
 padding: 10px 12px;
@@ -774,7 +771,6 @@ background: #0f172a;
 color: #94a3b8;
 
 font-size: 12px;
-```
 
 }
 
@@ -784,15 +780,15 @@ PESQUISA
 
 .pesquisa-secao {
 
-```
+
 border-top: 1px solid #1e293b;
-```
+
 
 }
 
 .barra-pesquisa {
 
-```
+
 display: flex;
 
 gap: 8px;
@@ -806,13 +802,13 @@ border: 1px solid #334155;
 border-radius: 14px;
 
 max-width: 800px;
-```
+
 
 }
 
 .barra-pesquisa input {
 
-```
+
 flex: 1;
 
 min-width: 0;
@@ -828,13 +824,13 @@ color: white;
 padding: 14px;
 
 font-size: 16px;
-```
+
 
 }
 
 .barra-pesquisa button {
 
-```
+
 border: 0;
 
 background: #16a34a;
@@ -848,23 +844,23 @@ border-radius: 9px;
 font-weight: bold;
 
 cursor: pointer;
-```
+
 
 }
 
 .resultado-pesquisa {
 
-```
+
 max-width: 800px;
 
 margin-top: 20px;
-```
+
 
 }
 
 .resultado-item {
 
-```
+
 background: #172033;
 
 border: 1px solid #334155;
@@ -874,15 +870,15 @@ padding: 20px;
 border-radius: 12px;
 
 margin-bottom: 10px;
-```
+
 
 }
 
 .resultado-item strong {
 
-```
+
 color: #4ade80;
-```
+
 
 }
 
@@ -892,7 +888,7 @@ FOOTER
 
 footer {
 
-```
+
 text-align: center;
 
 padding: 60px 20px;
@@ -900,35 +896,35 @@ padding: 60px 20px;
 background: #020617;
 
 border-top: 1px solid #1e293b;
-```
+
 
 }
 
 .footer-logo {
 
-```
+
 font-size: 20px;
 
 font-weight: bold;
 
 margin-bottom: 10px;
-```
+
 
 }
 
 footer p {
 
-```
+
 color: #64748b;
 
 margin-bottom: 25px;
-```
+
 
 }
 
 .footer-links {
 
-```
+
 display: flex;
 
 justify-content: center;
@@ -938,33 +934,33 @@ gap: 22px;
 flex-wrap: wrap;
 
 margin-bottom: 25px;
-```
+
 
 }
 
 .footer-links a {
 
-```
+
 color: #94a3b8;
 
 text-decoration: none;
-```
+
 
 }
 
 .footer-links a:hover {
 
-```
+
 color: #4ade80;
-```
+
 
 }
 
 footer small {
 
-```
+
 color: #475569;
-```
+
 
 }
 
@@ -974,19 +970,19 @@ RESPONSIVO
 
 @media (max-width: 900px) {
 
-```
+
 .grade-clubes {
 
     grid-template-columns:
         repeat(2, 1fr);
 }
-```
+
 
 }
 
 @media (max-width: 700px) {
 
-```
+
 .topo {
 
     padding: 0 20px;
@@ -1075,6 +1071,6 @@ nav a {
 
     height: 50px;
 }
-```
+
 
 }
